@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "2023/Java/src",
+        "2023/Java/resource"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
