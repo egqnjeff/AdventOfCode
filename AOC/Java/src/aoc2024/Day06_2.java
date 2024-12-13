@@ -33,10 +33,10 @@ public class Day06_2 {
         
         ArrayList<Position> guardPath = createPath(guard);
 
-        // updateGrid(guardPath);
+        updateGrid(guardPath);
 
-        // printGrid();
-        System.out.println("Path size = " + guardPath.size() + " counter = " + counter);
+        printGrid();
+        System.out.println("Visited = " + countVisited());
         System.out.println("Added Obstacles = " + addedObstacles.size());
     }
 
@@ -116,7 +116,7 @@ public class Day06_2 {
         if(isOffGrid(current.location)) {
             return false;
         }
-        System.out.println("Counter = " + counter + " Path size = " + path.size() + " Last Pos = " + current);
+        // System.out.println("Counter = " + counter + " Path size = " + path.size() + " Last Pos = " + current);
         return true;
     }
 
